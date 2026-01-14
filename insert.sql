@@ -50,7 +50,8 @@ VALUES
     ('Bad Lia', 260, 4),
     ('Bleed It Out', 164, 5),
     ('What I’ve Done', 205, 5),
-    ('No More Sorrow', 221, 5);
+    ('No More Sorrow', 221, 5),
+    ('The Lady in My Life', 300, 3);
 
 INSERT INTO album_artist(id_album, id_artist) 
 VALUES
@@ -89,7 +90,3 @@ VALUES
     (6, 7),
     (6, 8),
     (6, 9);
-
-    
-
-
