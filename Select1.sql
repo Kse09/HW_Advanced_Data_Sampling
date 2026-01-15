@@ -18,4 +18,4 @@ WHERE name NOT LIKE '% %';
 
 SELECT track_name 
 FROM track 
-WHERE lower(track_name) LIKE '%my%' OR LOWER(track_name) LIKE '%мой%';
+WHERE LOWER(track_name) LIKE '%my%' OR LOWER(track_name) LIKE '%мой%';
